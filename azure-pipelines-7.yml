@@ -1,0 +1,23 @@
+trigger:
+- main
+
+resources:
+  repositories:
+  - repository: self
+    type: git
+    ref: main
+jobs:
+- job: Job_1
+  displayName: Agent job 1
+  pool:
+    vmImage: windows-latest
+  steps:
+  - checkout: self
+    clean: true
+  - task: FtpUpload@2
+    displayName: 'FTP Upload: src'
+    inputs:
+      serverEndpoint: 1f921bae-7ac8-43e7-878c-4cc5181f7ab6
+      rootFolder: src
+      remotePath: /src/
+...
