@@ -21,7 +21,7 @@ steps:
     SonarCloud: 'SonarConnection'
     organization: '182028'
     scannerMode: 'MSBuild'
-    projectKey: '182028_proyectoFinalGPDS'
+    projectKey: 'proyectoFinalGPDS'
     projectName: 'proyectoFinalGPDS'
 
 - script: |

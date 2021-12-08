@@ -25,8 +25,8 @@ steps:
     organization: 'organizaciones'
     scannerMode: 'CLI'
     configMode: 'file'
-    proyectKey: '182028_Proyecto_Final_GPDSV2'
-    projectName: 'Proyecto_Final_GPDSV2'
+    proyectKey: 'ProyectoFinalGPDSV2'
+    projectName: 'ProyectoFinalGPDSV2'
       
 - script: |
     npm install

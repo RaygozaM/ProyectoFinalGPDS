@@ -22,7 +22,7 @@ steps:
     organization: '182028'
     scannerMode: 'CLI'
     configMode: 'manual'
-    cliProjectKey: '182028_proyectoFinalGPDS'
+    cliProjectKey: 'proyectoFinalGPDS'
     cliProjectName: 'proyectoFinalGPDS'
     cliSources: '.'
 
